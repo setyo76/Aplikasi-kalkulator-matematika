@@ -1,0 +1,57 @@
+body {
+    background-color: #E1F7F5;
+}
+.container {
+    background-color: #1E0342;
+    color: #E1F7F5;
+    width: 800px;
+    padding: 30px;
+    margin: 30px auto;
+    & h1, p {
+        text-align: center;
+    }
+    & .content {
+        display: flex;
+        padding: 20px;
+        & .left {
+            width: 50%;
+            border-right: 2px dashed whitesmoke;
+            & img {
+                width: 100%;
+            }
+        }
+        & .right {
+            width: 50%;
+            padding: 10px;
+            & label, input {
+                padding: 8px 20px;
+            }
+            & button {
+                padding: 8px 20px;
+                margin-left: 40px;
+                width: 80px;
+            }
+        }
+    }
+    & footer {
+        padding-top: 40px;
+        color: whitesmoke;
+        font-style: italic;
+        text-align: center;
+        & a {
+            color: whitesmoke;
+            text-decoration: none;
+        }
+    }
+    & .sosmed {
+        text-align: center;
+        padding: 12px;
+        & a {
+            padding-left: 12px;
+            & img {
+                width: 12px;
+            }
+        }
+    }
+}
+
